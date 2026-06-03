@@ -13,7 +13,7 @@
 <!-- BADGE ROW -->
 <img src="https://img.shields.io/badge/Open%20to%20Work-00ff9f?style=for-the-badge&logo=checkmarx&logoColor=black" />
 <img src="https://img.shields.io/badge/Status-Building%20Cool%20Stuff-00ccff?style=for-the-badge&logo=rocket&logoColor=black" />
-<img src="https://komarev.com/ghpvc/?username=siddharthtamilselvan1&style=for-the-badge&color=00ff9f&label=PROFILE+VIEWS" />
+<img src="https://komarev.com/ghpvc/?username=siddharth99520&style=for-the-badge&color=00ff9f&label=PROFILE+VIEWS" />
 
 </div>
 
@@ -232,12 +232,12 @@ Type      : Oral Presentation
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=siddharthtamilselvan1&show_icons=true&theme=chartreuse-dark&bg_color=0d0d0d&border_color=00ff9f&title_color=00ff9f&icon_color=00ccff&text_color=aaaaaa&hide_border=false&count_private=true" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=siddharthtamilselvan1&theme=chartreuse-dark&background=0d0d0d&border=00ff9f&ring=00ff9f&fire=00ccff&currStreakLabel=00ff9f" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=siddharth99520&show_icons=true&theme=chartreuse-dark&bg_color=0d0d0d&border_color=00ff9f&title_color=00ff9f&icon_color=00ccff&text_color=aaaaaa&hide_border=false&count_private=true" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=siddharth99520&theme=chartreuse-dark&background=0d0d0d&border=00ff9f&ring=00ff9f&fire=00ccff&currStreakLabel=00ff9f" />
 
 <br/><br/>
 
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=siddharthtamilselvan1&theme=chartreuse-dark&bg_color=0d0d0d&border_color=00ff9f&title_color=00ff9f&text_color=aaaaaa&layout=compact&langs_count=8" />
+<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=siddharth99520&theme=chartreuse-dark&bg_color=0d0d0d&border_color=00ff9f&title_color=00ff9f&text_color=aaaaaa&layout=compact&langs_count=8" />
 
 </div>
 
@@ -246,7 +246,7 @@ Type      : Oral Presentation
 <!-- TROPHIES -->
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=siddharthtamilselvan1&theme=matrix&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" />
+<img src="https://github-profile-trophy.vercel.app/?username=siddharth99520&theme=matrix&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" />
 
 </div>
 
@@ -255,7 +255,7 @@ Type      : Oral Presentation
 <!-- ACTIVITY GRAPH -->
 <div align="center">
 
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=siddharthtamilselvan1&theme=react-dark&bg_color=0d0d0d&color=00ff9f&line=00ccff&point=ffffff&area=true&hide_border=false&border_color=00ff9f" />
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=siddharth99520&theme=react-dark&bg_color=0d0d0d&color=00ff9f&line=00ccff&point=ffffff&area=true&hide_border=false&border_color=00ff9f" />
 
 </div>
 
@@ -322,9 +322,9 @@ $ cat current_status.log
 <h2>🐍 CONTRIBUTION SNAKE</h2>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/siddharthtamilselvan1/siddharthtamilselvan1/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/siddharthtamilselvan1/siddharthtamilselvan1/output/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/siddharthtamilselvan1/siddharthtamilselvan1/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/siddharth99520/siddharth99520/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/siddharth99520/siddharth99520/output/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/siddharth99520/siddharth99520/output/github-contribution-grid-snake-dark.svg" />
 </picture>
 
 </div>
@@ -351,7 +351,7 @@ $ cat current_status.log
 <a href="https://airox.co.in/Siddharth-portfolio">
   <img src="https://img.shields.io/badge/Portfolio-00ff9f?style=for-the-badge&logo=About.me&logoColor=black" />
 </a>
-<a href="https://github.com/siddharthtamilselvan1">
+<a href="https://github.com/siddharth99520">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 <a href="https://linkedin.com/in/siddharth-t">
