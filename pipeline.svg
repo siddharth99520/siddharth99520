@@ -1,0 +1,265 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 350" width="100%" height="100%" style="background: transparent;">
+  <defs>
+    <!-- Background grid pattern -->
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="rgba(255, 255, 255, 0.02)" stroke-width="1" />
+    </pattern>
+
+    <!-- Glowing filters -->
+    <filter id="glow-cyan" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="glow-green" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="glow-pink" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="glow-gold" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Gradients for cylinders -->
+    <linearGradient id="bronzeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff7675" />
+      <stop offset="100%" stop-color="#c0392b" />
+    </linearGradient>
+    
+    <linearGradient id="silverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00ff9f" />
+      <stop offset="100%" stop-color="#00b894" />
+    </linearGradient>
+
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd32a" />
+      <stop offset="100%" stop-color="#d35400" />
+    </linearGradient>
+
+    <linearGradient id="sourceGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00ccff" />
+      <stop offset="100%" stop-color="#0984e3" />
+    </linearGradient>
+  </defs>
+
+  <!-- Grid overlay -->
+  <rect width="100%" height="100%" fill="url(#grid)" />
+
+  <style>
+    .flow-line {
+      fill: none;
+      stroke: rgba(255, 255, 255, 0.08);
+      stroke-width: 2.5;
+      stroke-linecap: round;
+    }
+    .flow-line-active {
+      fill: none;
+      stroke-width: 2;
+      stroke-linecap: round;
+      opacity: 0.7;
+    }
+    .node-text {
+      font-family: 'JetBrains Mono', 'Courier New', monospace;
+      font-size: 11px;
+      fill: #a0a0a0;
+      text-anchor: middle;
+      font-weight: bold;
+    }
+    .node-title {
+      font-family: 'Outfit', 'Inter', sans-serif;
+      font-size: 14px;
+      fill: #ffffff;
+      text-anchor: middle;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+    .badge-text {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px;
+      fill: #0d0d0d;
+      font-weight: 900;
+      text-anchor: middle;
+    }
+    @keyframes pulse {
+      0% { r: 6px; opacity: 0.3; }
+      50% { r: 12px; opacity: 0.7; }
+      100% { r: 6px; opacity: 0.3; }
+    }
+    .node-pulse-cyan { animation: pulse 3s infinite ease-in-out; fill: #00ccff; }
+    .node-pulse-green { animation: pulse 3s infinite ease-in-out; fill: #00ff9f; }
+    .node-pulse-pink { animation: pulse 3s infinite ease-in-out; fill: #ff4757; }
+    .node-pulse-gold { animation: pulse 3s infinite ease-in-out; fill: #ffd32a; }
+  </style>
+
+  <!-- ================= LINES (BACKGROUND) ================= -->
+  <!-- Source A to Bronze -->
+  <path id="line-srcA-bronze" class="flow-line" d="M 140 100 C 190 100, 190 175, 230 175" />
+  <!-- Source B to Bronze -->
+  <path id="line-srcB-bronze" class="flow-line" d="M 140 250 C 190 250, 190 175, 230 175" />
+  <!-- Bronze to Silver -->
+  <path id="line-bronze-silver" class="flow-line" d="M 290 175 L 410 175" />
+  <!-- Silver to Gold Analytics -->
+  <path id="line-silver-goldA" class="flow-line" d="M 470 175 C 520 175, 530 100, 580 100" />
+  <!-- Silver to Gold ML -->
+  <path id="line-silver-goldB" class="flow-line" d="M 470 175 C 520 175, 530 250, 580 250" />
+
+  <!-- ================= ACTIVE FLOW LINES (COLOR GLOW) ================= -->
+  <path class="flow-line-active" d="M 140 100 C 190 100, 190 175, 230 175" stroke="#00ccff" filter="url(#glow-cyan)" />
+  <path class="flow-line-active" d="M 140 250 C 190 250, 190 175, 230 175" stroke="#ff4757" filter="url(#glow-pink)" />
+  <path class="flow-line-active" d="M 290 175 L 410 175" stroke="#00ff9f" filter="url(#glow-green)" />
+  <path class="flow-line-active" d="M 470 175 C 520 175, 530 100, 580 100" stroke="#ffd32a" filter="url(#glow-gold)" />
+  <path class="flow-line-active" d="M 470 175 C 520 175, 530 250, 580 250" stroke="#ffd32a" filter="url(#glow-gold)" />
+
+  <!-- ================= ANIMATED DATA PACKETS ================= -->
+  <!-- Packet 1 (Source A -> Bronze) -->
+  <circle r="4" fill="#00ccff" filter="url(#glow-cyan)">
+    <animateMotion dur="2.5s" repeatCount="indefinite" path="M 140 100 C 190 100, 190 175, 230 175" />
+  </circle>
+  <circle r="4" fill="#00ccff" filter="url(#glow-cyan)">
+    <animateMotion dur="2.5s" begin="1.25s" repeatCount="indefinite" path="M 140 100 C 190 100, 190 175, 230 175" />
+  </circle>
+
+  <!-- Packet 2 (Source B -> Bronze) -->
+  <circle r="4" fill="#ff4757" filter="url(#glow-pink)">
+    <animateMotion dur="3.2s" repeatCount="indefinite" path="M 140 250 C 190 250, 190 175, 230 175" />
+  </circle>
+
+  <!-- Packet 3 (Bronze -> Silver) -->
+  <circle r="4" fill="#00ff9f" filter="url(#glow-green)">
+    <animateMotion dur="1.8s" repeatCount="indefinite" path="M 290 175 L 410 175" />
+  </circle>
+  <circle r="4" fill="#00ff9f" filter="url(#glow-green)">
+    <animateMotion dur="1.8s" begin="0.9s" repeatCount="indefinite" path="M 290 175 L 410 175" />
+  </circle>
+
+  <!-- Packet 4 (Silver -> Gold A) -->
+  <circle r="4" fill="#ffd32a" filter="url(#glow-gold)">
+    <animateMotion dur="3s" repeatCount="indefinite" path="M 470 175 C 520 175, 530 100, 580 100" />
+  </circle>
+
+  <!-- Packet 5 (Silver -> Gold B) -->
+  <circle r="4" fill="#ffd32a" filter="url(#glow-gold)">
+    <animateMotion dur="2.2s" repeatCount="indefinite" path="M 470 175 C 520 175, 530 250, 580 250" />
+  </circle>
+
+  <!-- ================= ORCHESTRATION INJECTORS (AIRFLOW / SPARK GLOW) ================= -->
+  <!-- Ingestion Orchestrator Sparkle -->
+  <g transform="translate(180, 137)">
+    <circle r="3" fill="#00ccff" filter="url(#glow-cyan)">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2s" repeatCount="indefinite" />
+    </circle>
+  </g>
+  <!-- Spark Transform Sparkle -->
+  <g transform="translate(350, 175)">
+    <circle r="3" fill="#00ff9f" filter="url(#glow-green)">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="1.5s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- ================= NODES (GRAPHICS) ================= -->
+
+  <!-- SOURCE A: API / Logs (Cloud) -->
+  <g transform="translate(80, 100)">
+    <circle r="25" fill="#0d0d0d" stroke="#00ccff" stroke-width="2" filter="url(#glow-cyan)"/>
+    <circle class="node-pulse-cyan" cx="0" cy="0" />
+    <path d="M-10 2 C-10 -3 -5 -7 0 -7 C3 -7 6 -5 7 -2 C9 -2 11 0 11 2 C11 5 9 7 6 7 L-6 7 C-8 7 -10 5 -10 2 Z" fill="none" stroke="#00ccff" stroke-width="2" stroke-linejoin="round"/>
+    <text class="node-title" y="42">Web Logs</text>
+    <text class="node-text" y="55">API Source</text>
+  </g>
+
+  <!-- SOURCE B: DB Files (File / Storage) -->
+  <g transform="translate(80, 250)">
+    <circle r="25" fill="#0d0d0d" stroke="#ff4757" stroke-width="2" filter="url(#glow-pink)"/>
+    <circle class="node-pulse-pink" cx="0" cy="0" />
+    <!-- File icon -->
+    <path d="M -6 -8 L 2 -8 L 8 -2 L 8 8 L -6 8 Z" fill="none" stroke="#ff4757" stroke-width="2" />
+    <path d="M 2 -8 L 2 -2 L 8 -2" fill="none" stroke="#ff4757" stroke-width="2" />
+    <text class="node-title" y="42">Files/CRM</text>
+    <text class="node-text" y="55">CSV / DB Raw</text>
+  </g>
+
+  <!-- BRONZE LAYER (Cylinder) -->
+  <g transform="translate(260, 175)">
+    <circle r="30" fill="#0d0d0d" stroke="#ff7675" stroke-width="2" filter="url(#glow-pink)"/>
+    <!-- Cylinder drawing -->
+    <ellipse cx="0" cy="-8" rx="10" ry="4" fill="none" stroke="#ff7675" stroke-width="2"/>
+    <path d="M -10 -8 L -10 8 C -10 11 10 11 10 8 L 10 -8" fill="none" stroke="#ff7675" stroke-width="2"/>
+    <path d="M -10 0 C -10 3 10 3 10 0" fill="none" stroke="#ff7675" stroke-width="2"/>
+    <text class="node-title" y="47">BRONZE</text>
+    <text class="node-text" y="60">Raw Parquet</text>
+  </g>
+
+  <!-- SILVER LAYER (Cylinder with shield) -->
+  <g transform="translate(440, 175)">
+    <circle r="32" fill="#0d0d0d" stroke="#00ff9f" stroke-width="2" filter="url(#glow-green)"/>
+    <circle class="node-pulse-green" cx="0" cy="0" />
+    <!-- Cylinder drawing -->
+    <ellipse cx="0" cy="-8" rx="10" ry="4" fill="none" stroke="#00ff9f" stroke-width="2"/>
+    <path d="M -10 -8 L -10 8 C -10 11 10 11 10 8 L 10 -8" fill="none" stroke="#00ff9f" stroke-width="2"/>
+    <path d="M -10 0 C -10 3 10 3 10 0" fill="none" stroke="#00ff9f" stroke-width="2"/>
+    <text class="node-title" y="49">SILVER</text>
+    <text class="node-text" y="62">Cleaned/Enriched</text>
+  </g>
+
+  <!-- GOLD LAYER A: Analytics (Visual Graph) -->
+  <g transform="translate(640, 100)">
+    <circle r="25" fill="#0d0d0d" stroke="#ffd32a" stroke-width="2" filter="url(#glow-gold)"/>
+    <circle class="node-pulse-gold" cx="0" cy="0" />
+    <!-- Chart icon -->
+    <path d="M -8 6 L -8 -6 M -2 6 L -2 -2 M 4 6 L 4 -8 M -10 8 L 10 8" fill="none" stroke="#ffd32a" stroke-width="2" stroke-linecap="round"/>
+    <text class="node-title" y="42">GOLD OLAP</text>
+    <text class="node-text" y="55">Reporting/BI</text>
+  </g>
+
+  <!-- GOLD LAYER B: ML Feature Store (Brain/AI) -->
+  <g transform="translate(640, 250)">
+    <circle r="25" fill="#0d0d0d" stroke="#ffd32a" stroke-width="2" filter="url(#glow-gold)"/>
+    <circle class="node-pulse-gold" cx="0" cy="0" />
+    <!-- Brain nodes -->
+    <circle cx="-5" cy="-4" r="2.5" fill="#ffd32a"/>
+    <circle cx="5" cy="-4" r="2.5" fill="#ffd32a"/>
+    <circle cx="-5" cy="4" r="2.5" fill="#ffd32a"/>
+    <circle cx="5" cy="4" r="2.5" fill="#ffd32a"/>
+    <path d="M -5 -4 L 5 -4 L 5 4 L -5 4 Z" fill="none" stroke="rgba(255, 211, 42, 0.4)" stroke-width="1.5"/>
+    <text class="node-title" y="42">ML STORE</text>
+    <text class="node-text" y="55">Features/Models</text>
+  </g>
+
+  <!-- ================= ORCHESTRATION LABELS ================= -->
+  <!-- Airflow badge -->
+  <g transform="translate(180, 185)">
+    <rect x="-28" y="-9" width="56" height="18" rx="4" fill="#00ccff" />
+    <text class="badge-text" y="3">AIRFLOW</text>
+  </g>
+
+  <!-- Spark badge -->
+  <g transform="translate(350, 192)">
+    <rect x="-25" y="-9" width="50" height="18" rx="4" fill="#00ff9f" />
+    <text class="badge-text" y="3">PYSPARK</text>
+  </g>
+
+  <!-- AI / Feature Engineering badge -->
+  <g transform="translate(535, 185)">
+    <rect x="-30" y="-9" width="60" height="18" rx="4" fill="#ffd32a" />
+    <text class="badge-text" y="3">ANALYTICS</text>
+  </g>
+
+</svg>

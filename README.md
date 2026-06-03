@@ -133,6 +133,10 @@ me = Siddharth()
 ### 🏭 Telecom Complaint Data Platform
 > *Enterprise-grade data engineering — built from scratch*
 
+<p align="center">
+  <img src="./pipeline.svg" width="100%" alt="Telecom Pipeline" />
+</p>
+
 ```
 Architecture : Medallion (Bronze → Silver)
 Processing   : PySpark distributed engine
