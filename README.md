@@ -236,8 +236,8 @@ Type      : Oral Presentation
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=siddharth99520&show_icons=true&theme=chartreuse-dark&bg_color=0d0d0d&border_color=00ff9f&title_color=00ff9f&icon_color=00ccff&text_color=aaaaaa&hide_border=false&count_private=true" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=siddharth99520&theme=chartreuse-dark&background=0d0d0d&border=00ff9f&ring=00ff9f&fire=00ccff&currStreakLabel=00ff9f" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=siddharth99520&show_icons=true&theme=chartreuse-dark&bg_color=0d0d0d&border_color=00ff9f&title_color=00ff9f&icon_color=00ccff&text_color=aaaaaa&hide_border=false&count_private=true&cache_seconds=1800" />
+<img width="49%" src="https://streak-stats.demolab.com/?user=siddharth99520&theme=chartreuse-dark&background=0d0d0d&border=00ff9f&ring=00ff9f&fire=00ccff&currStreakLabel=00ff9f" />
 
 <br/><br/>
 
