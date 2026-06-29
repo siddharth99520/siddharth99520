@@ -144,6 +144,8 @@ me = Siddharth()
 ### 🏭 Telecom Complaint Data Platform
 > *Enterprise-grade data engineering — built from scratch*
 
+[![View Repo](https://img.shields.io/badge/View%20Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/siddharth99520/YOUR-REPO-NAME)
+
 <p align="center">
   <img src="./pipeline.svg" width="100%" alt="Telecom Pipeline" />
 </p>
@@ -169,7 +171,8 @@ Environment  : Fully containerized via Docker
 ### 🎓 AI & DS Department Portal
 > *Full-stack academic management system*
 
-🔗 [airox.co.in/ai-ds](https://airox.co.in/ai-ds)
+[![View Repo](https://img.shields.io/badge/View%20Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/siddharth99520/YOUR-REPO-NAME)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-00ff9f?style=for-the-badge&logo=vercel&logoColor=black)](https://airox.co.in/ai-ds)
 
 ```
 Frontend  : Glassmorphism UI / HTML / CSS
@@ -195,7 +198,8 @@ Features  : Real-time academic tracking
 ### 🌐 Symposium Event Website
 > *High-traffic event management platform*
 
-🔗 [airox.co.in](https://airox.co.in)
+[![View Repo](https://img.shields.io/badge/View%20Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/siddharth99520/YOUR-REPO-NAME)
+[![Live Site](https://img.shields.io/badge/Live%20Site-00ccff?style=for-the-badge&logo=googlechrome&logoColor=black)](https://airox.co.in)
 
 ```
 Platform  : WordPress + Elementor
@@ -217,6 +221,8 @@ Design    : Responsive, mobile-first
 
 ### 🧠 PTH-Net — AI Research
 > *Facial Expression Recognition — ICAIDSC 2024*
+
+[![View Repo](https://img.shields.io/badge/View%20Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/siddharth99520/YOUR-REPO-NAME)
 
 ```
 Domain    : Computer Vision / Deep Learning
