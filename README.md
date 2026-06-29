@@ -76,13 +76,22 @@ me = Siddharth()
 
 **Languages**
 
-<img src="https://skillicons.dev/icons?i=python,java,c,php,html,sql&theme=dark" />
+<img src="https://skillicons.dev/icons?i=python,java,c,js,php,html&theme=dark" />
+
+<br/><br/>
+
+**AI & Data Science**
+
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&theme=dark" />
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+<img src="https://skillicons.dev/icons?i=jupyter&theme=dark" />
 
 <br/><br/>
 
 **Frameworks & Libraries**
 
-<img src="https://skillicons.dev/icons?i=flutter&theme=dark" />
+<img src="https://skillicons.dev/icons?i=fastapi,flask,flutter&theme=dark" />
 <img src="https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white" />
 <img src="https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white" />
 
@@ -90,7 +99,7 @@ me = Siddharth()
 
 **Databases & Storage**
 
-<img src="https://skillicons.dev/icons?i=mysql&theme=dark" />
+<img src="https://skillicons.dev/icons?i=mysql,postgresql&theme=dark" />
 <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
 
 <br/><br/>
@@ -115,6 +124,8 @@ me = Siddharth()
 ![ETL Pipelines](https://img.shields.io/badge/ETL%20Pipelines-00ccff?style=flat-square)
 ![REST APIs](https://img.shields.io/badge/REST%20APIs-ff6b6b?style=flat-square)
 ![Data Engineering](https://img.shields.io/badge/Data%20Engineering-f7b731?style=flat-square)
+![MLOps](https://img.shields.io/badge/MLOps-a855f7?style=flat-square)
+![Computer Vision](https://img.shields.io/badge/Computer%20Vision-ff6b6b?style=flat-square)
 
 </div>
 
