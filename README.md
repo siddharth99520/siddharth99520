@@ -372,9 +372,7 @@ $ cat current_status.log
 <a href="https://linkedin.com/in/siddharth-t">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
-<a href="tel:+919952064094">
-  <img src="https://img.shields.io/badge/Phone-00ccff?style=for-the-badge&logo=whatsapp&logoColor=black" />
-</a>
+
 
 <br/><br/>
 
